@@ -3,6 +3,8 @@ layout: default
 title: Youth Tech Workshops
 ---
 
+<https://lansingtechstudio.org/workshops/>
+
 # Youth Tech Workshops – Design Charter
 
 ## Overview
