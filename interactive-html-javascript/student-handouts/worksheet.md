@@ -60,18 +60,7 @@ Plan your message box content:
 - Theme color: <span class="blank-line"></span>
 - Box size (px): <span class="blank-line-short"></span>
 
-## 7) Terminal Commands
+## 7) Reflection
 
-Write what each command does:
-
-| Command                   | What it does                                        |
-| ------------------------- | --------------------------------------------------- |
-| `git status`              | <span style="width: 368px; display: block;"></span> |
-| `git add .`               |                                                     |
-| `git commit -m "message"` |                                                     |
-| `git push`                |                                                     |
-
-## 8) Reflection
-
-- Coolest thing I made today: <span class="blank-line-long"></span>
-- One thing I want to add next time: <span class="blank-line-long"></span>
+- Coolest thing I made today: <br>&nbsp;<br> <span class="blank-line-long"></span>
+- One thing I want to add to my project: <br>&nbsp;<br> <span class="blank-line-long"></span>
