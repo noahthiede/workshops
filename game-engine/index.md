@@ -1,0 +1,106 @@
+---
+layout: default
+title: Game Engine Tools
+workshop: Game Engine Tools
+---
+
+# Game Engine Tools - 90 Minute Workshop
+
+**Audience:** Beginners (ages ~10-14) \
+**Theme:** _"Using a real game engine to build a small 2D platformer"_
+
+- Recording (coming soon)
+- [Slides]({{ site.baseurl }}/game-engine/slides.html)
+- Resources:
+  - [Glossary]({{ site.baseurl }}/game-engine/resources/glossary)
+  - [Next Steps After Game Engine Tools]({{ site.baseurl }}/game-engine/resources/next-steps)
+- Student Handouts:
+  - [Vocabulary Handout]({{ site.baseurl }}/game-engine/student-handouts/vocabulary)
+  - [Worksheet Handout]({{ site.baseurl }}/game-engine/student-handouts/worksheet)
+- Instructor Notes:
+  - [Common Questions]({{ site.baseurl }}/game-engine/instructor-notes/common-questions)
+  - [Timing Guide]({{ site.baseurl }}/game-engine/instructor-notes/timing-guide)
+
+## 1. Workshop Goals
+
+By the end of this workshop, every student should be able to:
+
+- Explain what **nodes** and **scenes** are in Godot
+- Identify common node types used in 2D games (sprites, collisions, UI)
+- Describe what **physics** does (gravity, collision, ground)
+- Open and edit a **GDScript** file and run the game
+- Add simple game features to a starter project:
+  - Switch character animation: **idle / move / jump**
+  - Flip the character horizontally based on direction faced
+  - Add a score counter when collecting coins
+  - (If time) Show a winner message after all coins are collected
+
+## 2. Success Definition
+
+A student is successful if they can say:
+
+> "I can open a Godot project, find the right node, and change code so the game
+> behaves differently."
+
+## 3. Environment & Prerequisites
+
+### Primary Path (Recommended)
+
+- Use the **web editor**: https://editor.godotengine.org/releases/latest/
+- Download the starter project zip from this repo:
+  - `game-engine/starter-code/platformer-starter-godot4.zip` (provided by instructor)
+
+### Fallback Path
+
+- Install Godot desktop (latest stable 4.x)
+- Import the same starter project zip
+
+## 4. 90-Minute Agenda (Minute-by-Minute)
+
+### 0:00-0:10 - Welcome & Icebreaker
+
+- Prompt: "What is a game mechanic you love?" (jumping, coins, double-jump, etc.)
+- Goal: experiment > perfection
+
+### 0:10-0:20 - Godot Tour: Nodes, Scenes, Assets, Scripts
+
+- What the Scene Tree is
+- What a script is
+- Where sprites/animations live
+
+### 0:20-0:30 - Import the Starter Project + Run It
+
+- Import zip
+- Press Play
+- Confirm: move + jump works, coins disappear, but score is not shown
+
+### 0:30-0:45 - Key Concepts: Physics + Collisions
+
+- CharacterBody2D / collisions / ground
+- Area2D for coin pickups
+
+### 0:45-1:05 - Build Task: Animation States
+
+- Idle vs moving vs jumping
+- Edit GDScript to change the animation
+
+### 1:05-1:15 - Build Task: Flip Direction
+
+- If moving left, face left; if moving right, face right
+
+### 1:15-1:25 - Build Task: Scoring
+
+- Track `score`
+- Update a UI label
+
+### 1:25-1:30 - If Time: Winner Message + Wrap-Up
+
+- Show "You win!" when all coins are collected
+- Share: one thing you changed that felt powerful
+
+## 5. Instructor Guardrails
+
+- Keep the Scene Tree visible often
+- Narrate: "What node are we on? What does it do?"
+- Encourage tiny changes + frequent Play testing
+- Normalize error messages: "errors are clues"
