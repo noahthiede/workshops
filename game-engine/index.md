@@ -13,6 +13,7 @@ workshop: Game Engine Tools
 - [Slides]({{ site.baseurl }}/game-engine/slides.html)
 - Resources:
   - [How to Build the Starter Project]({{ site.baseurl }}/game-engine/starter-code/build-starter-project)
+  - [Starter Project Zip]({{ site.baseurl }}/game-engine/starter-code/platformer-starter-godot4.zip) (coming soon)
   - [Glossary]({{ site.baseurl }}/game-engine/resources/glossary)
   - [Next Steps After Game Engine Tools]({{ site.baseurl }}/game-engine/resources/next-steps)
 - Student Handouts:
