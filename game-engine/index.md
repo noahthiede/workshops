@@ -9,7 +9,7 @@ workshop: Game Engine Tools
 **Audience:** Beginners (ages ~10-14) \
 **Theme:** _"Using a real game engine to build a small 2D platformer"_
 
-- Recording (coming soon)
+- [Recording ▶️](https://youtu.be/Tc3QxoVZRzw)
 - [Slides]({{ site.baseurl }}/game-engine/slides.html)
 - Resources:
   - [How to Build the Starter Project]({{ site.baseurl }}/game-engine/starter-code/build-starter-project) ([Video▶️](https://youtu.be/V02-xhsohVY))
