@@ -9,6 +9,9 @@ workshop: Sound Design and Foley
 **Audience:** Beginners (ages ~10-14)  
 **Theme:** _"Building cinematic sound effects from everyday objects"_
 
+* [Recording](https://youtu.be/D7kVFSiuaKY)
+* [Slides](https://docs.google.com/presentation/d/1fKpvt-56DZ06cLiV98nD6YaR5e6khpFfQhehl-v4NvI/edit?usp=sharing) 
+
 ## Workshop Overview
 
 Students will discover how movies, games, and animations create immersive
