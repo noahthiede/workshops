@@ -32,8 +32,7 @@
 	<div class="reveal">
 		<div class="slides">
 			<section data-background-image="../assets/images/logo-transparent.png" data-background-size="900px 900px"
-				data-background-opacity="0.7" data-background-repeat="no-repeat"
-				data-background-position="center center">
+				data-background-opacity="0.7" data-background-repeat="no-repeat" data-background-position="center center">
 				<h2 class="outlined">Advanced Python Coding</h2>
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>
@@ -76,7 +75,8 @@
 						<li>If new: click <strong>Fork</strong></li>
 						<li>If returning: click <strong>Sync fork → Update branch</strong></li>
 					</ol>
-					<p><img src="../assets/images/workshops-qr.png" alt="https://github.com/Lansing-Tech-Studio/workshops" height="185"></p>
+					<p><img src="../assets/images/workshops-qr.png" alt="https://github.com/Lansing-Tech-Studio/workshops"
+							height="185"></p>
 					<div style="position: absolute; bottom: -100px; right: -530px; width: 2000px;">
 						https://github.com/Lansing-Tech-Studio/workshops
 					</div>
@@ -240,13 +240,27 @@ print(result)            # Hello, Alex!
 				</section>
 				<section>
 					<h3>Your First TODO: take_item()</h3>
-					<p>Find <code>take_item()</code> in <code>game.py</code>. It currently does nothing (<code>pass</code>).</p>
-					<p>Make it:</p>
+					<p>Find <code>take_item()</code> in <code>game.py</code>. It currently does nothing (<code>pass</code>). Make
+						it:</p>
 					<ol>
 						<li>Check if <code>room['item']</code> is not <code>None</code></li>
-						<li>If yes: add the item to <code>player.inventory</code>, clear <code>room['item']</code>, print a message</li>
-						<li>If no: print "There is nothing to take here."</li>
+						<li>If true: add the item to <code>player.inventory</code>, clear <code>room['item']</code>, print a message
+						</li>
+						<li>If false: print "There is nothing to take here."</li>
 					</ol>
+				</section>
+				<section>
+					<h3>Target Code: take_item()</h3>
+					<pre><code data-trim class="language-python">
+def take_item(player, room):
+    if room['item']:
+        item = room['item']
+        player.inventory.append(item)
+        room['item'] = None
+        print(f"You picked up: {item}")
+    else:
+        print("There is nothing to take here.")
+					</code></pre>
 				</section>
 			</section>
 
@@ -319,7 +333,18 @@ player = Player("Alex")
 						<li><code>take_damage(self, amount)</code> — reduce health, print status</li>
 						<li><code>has_item(self, item_name)</code> — return True/False</li>
 					</ol>
-					<p>Hint: <code>return item_name in self.inventory</code></p>
+				</section>
+				<section>
+					<h3>Target Code: player.py methods</h3>
+					<pre><code data-trim class="language-python">
+def take_damage(self, amount):
+    self.health = self.health - amount
+    print(f"You took {amount} damage! Health: {self.health}")
+
+def has_item(self, item_name):
+    return item_name in self.inventory
+					</code></pre>
+					<p><em>Don't forget to indent your methods inside the class!</em></p>
 				</section>
 			</section>
 
@@ -331,7 +356,8 @@ player = Player("Alex")
 				</section>
 				<section>
 					<h3>Save &amp; Load</h3>
-					<p>The <code>save_game()</code> and <code>load_game()</code> functions are already in <code>game.py</code>.</p>
+					<p>The <code>save_game()</code> and <code>load_game()</code> functions are already in <code>game.py</code>.
+					</p>
 					<pre><code data-trim class="language-python">
 import json
 
