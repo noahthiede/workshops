@@ -9,6 +9,7 @@ workshop: Tech Fundamentals
 **Audience:** Beginners with little to no programming experience \\
 **Theme:** _"How computers actually work, and how you control them"_
 
+* [Recording](https://youtu.be/D_QRIGQ-vqo)
 * [Slides]({{ site.baseurl }}/tech-fundamentals/slides.html)
 * Resources:
   * [Glossary]({{ site.baseurl }}/tech-fundamentals/resources/glossary)
