@@ -23,7 +23,12 @@ A series of five 2-hour technology workshops for students ages **12–14** with 
 2. JavaScript Basics – 1/22/2026
 3. Interactive HTML + JavaScript – 2/5/2026
 4. Python Coding Introduction – 2/19/2026
-5. Advanced Python Coding – 4/2/2026
+5. Digital Art & Animation - 2/26/2026
+6. AI Playground for Kids – 3/5/2026
+7. Sound Design and Foley - 3/12/2026
+8. Advanced Python Coding – 3/19/2026
+9. Video Game Design - Mechanics and Logic - 3/26/2026
+10. Video Production - 4/2/2026
 
 ---
 
