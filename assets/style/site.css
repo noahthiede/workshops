@@ -27,6 +27,19 @@
   --font-mono: "Cascadia Code", "Fira Code", "Consolas", monospace;
 }
 
+/* Dark mode */
+[data-theme="dark"] {
+  --bg-color: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --text-color: #f1f5f9;
+  --text-muted: #94a3b8;
+  --border-color: #334155;
+  --primary-color: #60a5fa;
+  --primary-dark: #93c5fd;
+  --primary-light: #3b82f6;
+}
+
 /* Reset and base */
 *,
 *::before,
@@ -88,6 +101,43 @@ body {
 
 .site-title {
   white-space: nowrap;
+}
+
+/* Header actions (dark mode toggle + nav toggle) */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Dark mode toggle */
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.dark-mode-toggle:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.dark-mode-toggle .icon-moon {
+  display: none;
+}
+
+[data-theme="dark"] .dark-mode-toggle .icon-sun {
+  display: none;
+}
+
+[data-theme="dark"] .dark-mode-toggle .icon-moon {
+  display: block;
 }
 
 /* Mobile nav toggle */
